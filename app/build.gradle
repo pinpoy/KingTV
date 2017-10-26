@@ -13,8 +13,8 @@ android {
             properties.load( inputStream )
 
             //读取文件
-            def storeFileDir = properties.getProperty('storeFile.file')
-            storeFile file( storeFileDir )
+//            def storeFileDir = properties.getProperty('storeFile.file')
+//            storeFile file( storeFileDir )       hello——————>pull master
 
             //读取字段
             def key_keyAlias = properties.getProperty( 'keyAlias' )
